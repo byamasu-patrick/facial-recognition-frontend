@@ -41,12 +41,6 @@ const VerifyPeople = () => {
                 <div id="block-content" style={{visibility: "hidden"}} className="w-full bg-gray-200 h-1 fixed top-20">
                     <div className="bg-orange-400 h-1 progresss" style={{width: "2%", transition: ".3s ease-in-out"}}></div>
                 </div>
-                {/* <div className="w-6/12 mb-4 mt-4 text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">            
-                    <a href="/upload/{{ audio_file }}" className="relative inline-flex items-center w-full px-4 py-2 text-sm font-medium rounded-b-lg hover:bg-gray-100 hover:hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-orange-500 focus:text-orange-500 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white" download>
-                        <svg className="w-4 h-4 mr-2 fill-current" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 9.5A3.5 3.5 0 005.5 13H9v2.586l-1.293-1.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 15.586V13h2.5a4.5 4.5 0 10-.616-8.958 4.002 4.002 0 10-7.753 1.977A3.5 3.5 0 002 9.5zm9 3.5H9V8a1 1 0 012 0v5z" clip-rule="evenodd"></path></svg>
-                        {{ audio_file }}
-                    </a>                
-                </div>        */}
                 <div className="my-3">
                     <input
                         id="name"
